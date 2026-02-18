@@ -22,7 +22,7 @@ char getCharValue() {
 }
 
 int convertFloatToInt(float value) {
-    // convert value to int.
+    
     return value;
 }
 
@@ -33,6 +33,7 @@ Formula:
     Celsius = (Fahrenheit - 32) * 5 / 9
 */
 float fahrenheitToCelsius(float fahrenheit) {
-    //return celsius;
+    int celsius = (10 -32)* 5/9;
+    return celsius;
 
 }
